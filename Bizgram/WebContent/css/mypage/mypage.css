@@ -1,0 +1,215 @@
+<style type="text/css">
+	.mypage-container {
+		width: auto;
+	}
+	.mypage-header {
+		background: #98FB98;
+		width: auto;
+		height: 50px;
+		padding: 0 50px;
+	}
+	.mypage-header p {
+		padding: 0;
+		display: inline-block;
+	}
+	.mypage-header-left {
+		font-size: 24px;
+		font-family: 'Comic Sans MS';
+		margin: 5px 25px 12px;
+	}
+	.mypage-header-right {
+		float: right;
+		position: relative;
+	}
+	.mypage-header-right p {
+		margin: 13px 10px;
+		padding: 0 18px;
+		cursor: pointer;
+	}
+	.mypage-main {
+		width: 87%;
+		margin: 20px auto;
+	}
+	.user-profile {
+		text-align: center;
+	}
+	.user-profile img {
+		border-radius: 50%;
+	}
+	.user-profile p {
+		margin: 10px 0;
+	}
+	.user-info-disp {
+		display: inline-block;
+		padding: 0 10px;
+	}
+	.post-image {
+		border: 1px solid #000;
+		background: #ddd;
+		cursor: pointer;
+	}
+	.user-posted-field {
+		width: auto;
+		border-top: 1px dotted gray;
+	}
+	.user-posted-image {
+		position: relative;
+		display: inline-block;
+		margin:  3% 3%;
+	}
+	.user-posted-image img {
+		height: 270px;
+		width: 270px;
+		border-radius: 10%;
+		cursor: pointer;
+	}
+	.user-posted-image p {
+		padding-left: 20px;
+	}
+	.user-posted-image-popup-window {
+		display: none;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.user-posted-image-popup-bg {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100vh;
+		position: absolute;
+		width: 100%;
+		left: -7.1%;
+	}
+	.user-posted-image-popup-content {
+		left: 42.9%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.user-friends-popup-window {
+		display: none;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.user-friends-popup-bg {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100vh;
+		position: absolute;
+		width: 100%;
+		left: -4.7%;
+	}
+	.user-friends-popup-content {
+		left: 45%;
+		width: 70%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: #bee0ce;
+	}
+	.user-friends-popup-images {
+		display: inline-block;
+		margin: 10px auto;
+		text-align: center;
+	}
+	.mypage-footer {
+		width: auto;
+		height: 50px;
+		padding: 0 50px;
+	}
+	.mypage-popup-container {
+		width: auto;
+	}
+	.mypage-search-user-popup-window {
+		display: none;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.mypage-search-user-popup-bg {
+		background: rgba(0, 0, 0, 0.1);
+		height: 100vh;
+		position: absolute;
+		width: 100%;
+		left: -0.7%;
+	}
+	.mypage-search-user-popup-frame {
+		left: 58%;
+		position: absolute;
+		top: 10%;
+		width: 20%;
+		height: 20%;
+		background: #f0cfa0;
+		border-radius: 20px;
+	}
+	.mypage-search-user-popup-contents {
+		width: 70%;
+		margin: 20px 10% 0;
+		float: center;
+	}
+	.mypage-search-user-popup-window-xbtn {
+		cursor: pointer;
+		float: right;
+		font-size: 30px;
+	}
+	.mypage-post-image-popup-window {
+		display: none;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.mypage-post-image-popup-bg {
+		background: rgba(0, 0, 0, 0.3);
+		height: 100vh;
+		position: absolute;
+		width: 100%;
+		left: -0.7%;
+	}
+	.mypage-post-image-popup-frame {
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		width: 70%;
+		height: 80%;
+		transform: translate(-50%, -50%);
+		background: #f0cfa0;
+		border-radius: 20px;
+	}
+	.mypage-post-image-popup-frame form {
+		text-align: center;
+	}
+	.mypage-post-image-popup-frame input {
+		width: 270px;
+		height: 30px;
+	}
+	.post-image-drop-zone {
+		width: 80%;
+		height: 100px;
+		margin: 0 auto;
+		background: #eee;
+		border: 5px dotted #ddd;
+		text-align: center;
+	}
+	.post-image-drop-zone p {
+		margin: 5.5% auto;
+	}
+	.post-image-file-select {
+		background: #ddd;
+		width: 20%;
+		border: 0.3px solid #000;
+		margin: 1.5% auto;
+		cursor: pointer;
+	}
+	.post-image-thumbnail-field img {
+		width: 320px;
+		height: 240px;
+	}
+
+	/* applied_friends.jsp */
+	.authorize-friends, .reject-friends {
+		cursor: pointer;
+	}
+</style>

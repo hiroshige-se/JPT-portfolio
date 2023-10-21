@@ -1,0 +1,62 @@
+<style type="text/css">
+	.login-container {
+		text-align: center;
+		width: auto;
+		margin: 5% auto;
+	}
+	.login-slideshow {
+		width: 40%;
+		height: 80%;
+		position: relative;
+		margin: 5% 10px;
+		display: inline-block;
+		left: 8%;
+	}
+	.login-slideshow-area img {
+		position: absolute;
+		top: -300px;
+		left: 0;
+		display: none;
+	}
+	.login-form {
+		width: 40%;
+		height: 70%;
+		position: relative;
+		margin: 2% 2%;
+		display: inline-block;
+		left: 5%;
+	}
+	.login-form * {
+		text-align: center;
+	}
+	.login-label-bizgram {
+		font-size: 35px;
+		font-family: 'Comic Sans MS';
+		margin: 0 auto 13%;
+		cursor: pointer;
+	}
+	.login-label-sub {
+		color: #AAAAAA;
+		margin: 9% auto;
+	}
+	.login-form input {
+		border-radius: 5px;
+		border: inset 1.5px;
+		width: 220px;
+		height: 30px;
+		font-size: 15px;
+		margin: 5px auto;
+	}
+	.login-btn {
+		margin: 20px auto 30px;
+	}
+	.login-btn input {
+		background: #CCFF99;
+		width: 230px;
+		height: 35px;
+	}
+	.login-btn input:hover {
+		opacity: 0.75;
+		cursor: pointer;
+	}
+</style>

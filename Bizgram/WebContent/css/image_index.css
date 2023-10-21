@@ -1,0 +1,60 @@
+<style type="text/css">
+	p input {
+		border-radius: 15px;
+	}
+	.main {
+		background: #CCFF99;
+	}
+	.profile {
+		text-align: center;
+	}
+	.profile p {
+		display: inline-block;
+		margin: 0px;
+	}
+	.profile img {
+		border-radius: 50%;
+		border: 10px solid #00dbde;
+		border-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+		border-image-slice: 1;
+		padding: 10px;
+	}
+	.image {
+		text-align: center;
+		display: inline-block;
+		margin-bottom: 40px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.image img {
+		border-radius: 20px;
+	}
+
+	.images {
+		text-align: center;
+		margin-right: 150px;
+		margin-left: 150px;
+	}
+	.friend_main img {
+		border-radius: 50%;
+	}
+	.friend_main p {
+		text-align: left;
+		margin-left: 300px;
+	}
+	.friends_list {
+		text-align: center;
+	}
+	.friends_list img {
+		border-radius: 50%;
+	}
+	.friend_page_main {
+		text-align: center;
+		background: #CCFF99;
+	}
+	.friend_images img {
+		border-radius: 25%;
+		margin-top: 15px;
+	}
+
+</style>
