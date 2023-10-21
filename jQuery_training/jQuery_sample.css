@@ -1,0 +1,64 @@
+.header {
+  background: green;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.header-title {
+ color: white;
+ top: 26px;
+ font-size: 32px;
+ text-align: center;
+ width: 80%;
+ margin: 0 auto;
+ max-width: 700px;
+ position: relative;
+}
+
+form {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+}
+
+.todo-lists, .carry-out-lists, .attempted-lists {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.todo-index, .carry-out-index, .attempted-index {
+    width: 80%;
+    margin: 0 auto;
+    background: green;
+    color: #fff;
+}
+
+.todo-list, .carry-out-list, .attempted-list{
+  width: 80%;
+  border-bottom: 1px dashed #ddd;
+  margin: 10px auto;
+}
+
+.todo-list span#delete,
+.carry-out-list span#delete,
+.attempted-list span#delete {
+  background: #c0c0c0;
+  border-radius: 15px;
+}
+
+.todo-list span#delete:hover,
+.carry-out-list span#delete:hover,
+.attempted-list span#delete:hover {
+  background: yellow;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.footer {
+  text-align: right;
+  margin-top: 30px;
+  font-size: 10px;
+}

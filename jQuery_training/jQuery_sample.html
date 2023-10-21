@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="jQuery_sample.css">
+<script type="text/javascript" src="jQuery_sample.js"></script>
+<title>TODO List</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header-title"><span id="note">♪</span><a>TODOリスト<a></div>
+	</div>
+	<div class="main-content">
+		<form>
+			<input type="text" name="todo" placeholder="することを入力">
+			<input type="button" value="しなければ！" name="todo-button">
+			<input type="button" name="save" value="保存・更新">
+		</form>
+		<div class="todo-lists" id="todo-lists">
+			<div class="todo-index">↓todo!</div>
+		</div>
+		<div class="carry-out-lists" id="carry-out-lists">
+			<div class="carry-out-index">↓次回へ持ち越す項目</div>
+		</div>
+		<div class="attempted-lists" id="attempted-lists">
+			<div class="attempted-index">↓前回の持ち越し項目</div>
+		</div>
+	</div>
+	<div class="footer">
+		<hr>
+		<div class="copyright">Copyright © 2019 Bizlet-endo All Rights Reserved.</div>
+	</div>
+</body>
+</html>
